@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>db_agenda.db</file>
+    </qresource>
+</RCC>
