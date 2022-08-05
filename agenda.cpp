@@ -61,11 +61,11 @@ void agenda::pegaEventos(){
             ++cont;
         }
         ui->listaContatos->verticalHeader()->setVisible(false);
-        QStringList headersContatos = {"Id","Evento", "Data"};
+        QStringList headersEventos = {"Id","Evento", "Data"};
         ui->listaEventos->setColumnHidden(0, true);
-        ui->listaEventos->setColumnWidth(1, 200);
-        ui->listaEventos->setColumnWidth(2, 200);
-        ui->listaEventos->setHorizontalHeaderLabels(headersContatos);
+        ui->listaEventos->setColumnWidth(1, 300);
+        ui->listaEventos->setColumnWidth(2, 300);
+        ui->listaEventos->setHorizontalHeaderLabels(headersEventos);
         while (cont < ui->listaEventos->rowCount()){
             ui->listaEventos->removeRow(cont);
         }
